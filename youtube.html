@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="channel-pictures/mychannel.jpg">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUQaHRtbCBmdWxsIGNvdXJzZQ%3D%3D" target="_blank">
+                    <img class="thumbnail" src="thumbnails/thumbnail.avif">
+                </a>
+                <div class="video-time">6:31:24</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+                    <p class="video-author">SuperSimpleDev</p>
+                    <p class="video-stats">13M views &#183; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/0SdeB876QkA" target="_blank">
+                    <img class="thumbnail" src="thumbnails/thumbnail2.avif">
+                </a>
+                <div class="video-time">13:02</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Urvashi Rautela needs to be stopped & Darshan Raval got married!! Funny memes 😂</p>
+                    <p class="video-author">FUKRA INSAAN LIVE</p>
+                    <p class="video-stats">1.1M views &#183; 1 day ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/miZ0vI1lSZw" target="_blank">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.avif">
+                </a>
+                <div class="video-time">24:02</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">@FlyingBeast32 brings Beast Life to Shark Tank India | Beast Vs Sharks | Full Pitch</p>
+                    <p class="video-author">SET India</p>
+                    <p class="video-stats">2.5M views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/nGhKIC_7Mkk" target="_blank">
+                    <img class="thumbnail" src="thumbnails/thumbnail-4.avif">
+                </a>
+                <div class="video-time">1:41:16</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Building AMAZON Clone for Beginners | Project using HTML & CSS</p>
+                    <p class="video-author">Apna College</p>
+                    <p class="video-stats">2.5M views &#183; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/d7a1jy5FSh8"target="_blank">
+                <img class="thumbnail" src="thumbnails/thumbnail-5.avif">
+                </a>
+                <div class="video-time">2:23:51</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        24 Must Try Indian Foods in Mumbai 🇮🇳
+                    </p>
+                    <p class="video-author">
+                        Daily Max
+                    </p>  
+                    <p class="video-stats">
+                        1.3M views  &#183; 1 year ago
+                    </p>
+                </div>    
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=RGKi6LSPDLU&t=2084s&pp=ygURcmVhY3QganMgdHV0b3JpYWw%3D"target="_blank">
+                <img class="thumbnail" src="thumbnails/thumbnail-6.avif">
+                </a>
+                <div class="video-time">2:12:57</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pictures">
+                    <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        React Tutorial in Hindi 🔥🔥
+                    </p>
+                    <p class="video-author">
+                        CodeWithHarry
+                    </p>   
+                    <p class="video-stats">
+                        
+                            3M views &#183; 3 years ago
+                    </p>
+                </div>    
+            </div>
+        </div>
+</div> 
+</body>
+</html>
+    </div>
+</body>
+</html>
